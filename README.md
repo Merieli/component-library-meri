@@ -3,7 +3,7 @@
     <br>
     <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png" alt="Logo" width="120">
     <br><br>
-    Project Title
+    Component Library - Merieli
 </h1>
 
 <p align="center">
@@ -15,14 +15,11 @@
     <br><br>
 </p>
 
-[*🎯 Roadmap*](./ROADMAP.todo) | [*📚 Documentation*](https://linktodocumentation) | [*👀 Project*](https://linktoproject)
+[*🎯 Roadmap*](./ROADMAP.md) | [*📚 Documentation*](https://linktodocumentation) | [*👀 Project*](https://linktoproject)
 
 ## ✨ Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- 
 
 
 ## 📸 Preview
@@ -33,9 +30,7 @@
 
 ## ⚡ Tech Stack
 
-**Client:** <img src="https://img.icons8.com/color/48/000000/vue-js.png" width="18px"/> Vue.js, <img src="https://img.icons8.com/color/48/000000/typescript.png" width="18px"/> TypeScript, <img src="https://img.icons8.com/color/48/000000/tailwind_css.png" width="18px"/> Tailwind, <img src="https://img.icons8.com/color/48/000000/sass-avatar.png" width="18px"/> SASS, <img src="https://vue-styleguidist.github.io/assets/logo.png" width="18px"/> Vue Styleguidist
-
-**Server:** Node, Express
+**Client:** <img src="https://img.icons8.com/color/48/000000/vue-js.png" width="18px"/> Vue.js, <img src="https://img.icons8.com/color/48/000000/typescript.png" width="18px"/> TypeScript, <img src="https://img.icons8.com/color/48/000000/tailwind_css.png" width="18px"/> Tailwind, DaisyUi
 
 <br>
 
@@ -43,16 +38,11 @@
 
 Run Locally
 ```bash
-# Remover comandos de package quando projeto estiver criado
-# Usar o script shell para gerar os comandos de atualização de pacotes
-~/scripts/update_npm_dep.sh ./package.json
-# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 # Clone the project
-  git clone https://link-to-project
+  git clone https://github.com/Merieli/component-library-meri.git
 
 # Go to the project directory
-  cd {project-name}
+  cd component-library-meri
 
 # Update all dependencies
   npm update

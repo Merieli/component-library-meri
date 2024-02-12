@@ -2,12 +2,13 @@
 
 ### Todo 🟨
 
- - [ ] Task two
+- [ ] Definir cores padrão
+- [ ] Definir fontes padrão
+- [ ] Componente de Botão
 
 
 ### In Progress 🔵
 
-- [ ] Task one
 
 
 ### Done ✅

@@ -1,16 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Button } from './ui';
+</script>
 
 <template>
-    <div class="teste"></div>
-    <v-alert class="" text="Hello World" />
+    <div class="p-3">
+        <Button text="Testando" variant="secondary"></Button>
+    </div>
 </template>
 
 <style lang="postcss" scoped>
-.teste {
-    @apply bg-meri-low h-5 w-full;
-
-    &:hover {
-        @apply bg-meri-mid;
-    }
-}
+@import 'style.css';
 </style>
