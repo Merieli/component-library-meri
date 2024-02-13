@@ -15,11 +15,7 @@
     <br><br>
 </p>
 
-[*🎯 Roadmap*](./ROADMAP.md) | [*📚 Documentation*](https://linktodocumentation) | [*👀 Project*](https://linktoproject)
-
-## ✨ Features
-
-- 
+[*🎯 Roadmap*](./ROADMAP.md) | [*📚 Documentation*](https://linktodocumentation) | [*👀 Design*](https://www.figma.com/file/R0cDDi2WXcL7ZzHOSGCM3Q/%F0%9F%83%8F--Memory-bits--Project-meri?type=design&node-id=28-667&mode=design&t=5bQ2B51pBoJm3ErL-0)
 
 
 ## 📸 Preview
