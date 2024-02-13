@@ -28,7 +28,7 @@ setTheme('light');
             @click="changeTheme"
         ></Button>
         <Input
-            name-id="testes"
+            field="password-01"
             label="Senha:"
             placeholder="Digite sua senha"
             variant="error"

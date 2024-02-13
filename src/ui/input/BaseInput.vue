@@ -13,13 +13,13 @@ const { classObject } = useInput(props);
 
 <template>
     <div class="input">
-        <label v-if="label" class="input__label" :for="nameId">
+        <label v-if="label" class="input__label" :for="field">
             {{ label }}
         </label>
         <input
             v-bind="$attrs"
-            :id="nameId"
-            :name="nameId"
+            :id="field"
+            :name="field"
             :type="typeInput"
             :placeholder="placeholder"
             class="input__main"

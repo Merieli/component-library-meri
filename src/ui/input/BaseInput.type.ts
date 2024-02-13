@@ -3,5 +3,5 @@ export interface BaseInputProps {
     label?: string;
     typeInput?: 'text' | 'password';
     variant?: string;
-    nameId: string;
+    field: string;
 }
