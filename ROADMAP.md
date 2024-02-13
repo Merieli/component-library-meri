@@ -2,9 +2,11 @@
 
 ### Todo 🟨
 
-- [ ] Definir cores padrão
-- [ ] Definir fontes padrão
-- [ ] Componente de Botão
+- [ ] Define a color palette
+- [ ] Define a typography
+- [ ] Button Component
+- [ ] Input Component 
+- [ ] Layout component without scroll with Header and Footer 
 
 
 ### In Progress 🔵
