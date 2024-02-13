@@ -9,27 +9,15 @@ module.exports = {
     },
     theme: {
         extend: {},
-        colors: {
-            'transparent': 'transparent',
-            'white': '#FFFFFF',
-            'black': '#000000',
-            'meri-light': '#E0BFFF',
-            'meri-mid': '#BC72FF',
-            'meri-dark': '#965CCC',
-            'meri-low': '#5E3980',
-            'success-light': '#04D36',
-            'success-base': '#1B873F',
-            'success-dark': '#051B0D',
-            'danger-light': '#F75A68',
-            'danger-base': '#CC293',
-            'danger-dark': '#2D090C',
-            'warning-light': '#FBA94',
-            'warning-base': '#EB8A1D',
-            'warning-dark': '#2E1B06',
+        colors: {},
+        fontFamily: {
+            sans: ['Montserrat', 'sans-serif'],
         },
     },
     plugins: [require('daisyui')],
     daisyui: {
-        themes: ['light', 'dark', 'cupcake'],
+        themes: ['winter', 'night'],
+        darkTheme: 'night',
+        prefix: 'dy-',
     },
 };
