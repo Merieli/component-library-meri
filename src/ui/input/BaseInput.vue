@@ -9,6 +9,8 @@ const props = withDefaults(defineProps<BaseInputProps>(), {
 });
 
 const { classObject } = useInput(props);
+
+const value = defineModel('value', { required: true });
 </script>
 
 <template>
@@ -18,6 +20,7 @@ const { classObject } = useInput(props);
         </label>
         <input
             v-bind="$attrs"
+            v-model="value"
             :id="field"
             :name="field"
             :type="typeInput"

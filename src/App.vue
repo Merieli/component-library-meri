@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref } from 'vue';
 import { Button, Input } from './ui';
 import { useTheme } from './ui/useTheme';
 
@@ -17,6 +18,8 @@ const changeTheme = () => {
 };
 
 setTheme('light');
+
+const pass = ref('other');
 </script>
 
 <template>
@@ -28,6 +31,7 @@ setTheme('light');
             @click="changeTheme"
         ></Button>
         <Input
+            v-model:value="pass"
             field="password-01"
             label="Senha:"
             placeholder="Digite sua senha"
