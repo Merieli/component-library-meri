@@ -19,7 +19,7 @@ const changeTheme = () => {
 
 setTheme('light');
 
-const pass = ref('other');
+const value = ref('other');
 </script>
 
 <template>
@@ -31,7 +31,7 @@ const pass = ref('other');
             @click="changeTheme"
         ></Button>
         <Input
-            v-model:value="pass"
+            v-model:value="value"
             field="password-01"
             label="Senha:"
             placeholder="Digite sua senha"
